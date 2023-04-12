@@ -1,0 +1,112 @@
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 16px; 
+   padding: 5px;
+}
+header{
+    padding: 5px;
+}
+ul a{
+    color: red;
+    text-decoration: none;
+}
+header li{
+    display: inline-block;
+    height: 60px;
+    width: 30%;
+    min-width: 445px;
+    padding: 20px;
+    margin:auto;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    background-color: #142411;
+}
+li:hover{
+    background-color: red;
+}
+a:hover{
+    color:#142411;
+}
+
+#tekst{
+    background-color: #CCFFB5;
+    width: 90%;
+    min-width: 550px;
+    margin: auto;
+    min-height: 850px;
+}
+p{
+    width: 90%;
+    margin: auto;
+    color: #142411
+}
+h1{
+    text-align: center;
+    color: #142411
+}
+footer{
+    height: 50px;
+    width:90%;
+    min-width: 550px;
+    margin: auto;
+    background-color: #142411;
+    color: red;
+    text-align: center;
+    padding: 5px 0px;
+}
+#foto{
+    width: 20%;
+    min-width: 300px;
+    margin: auto;
+}
+table{
+    border-collapse: collapse;
+    width:70%;
+    margin: auto;
+}
+td, th{
+    padding: 15px 3px;
+       
+}
+th{
+    background-color: #142411;
+    color: red;
+}
+caption{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+input[type="text"], input[type="email"], input[type="number"], input[type="tel"], textarea, button{
+    display: block;
+    margin: 20px 0px 0px 40px;
+    padding: 5px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 3px 3px 6px #142411;
+}
+textarea{
+    height: 150px;
+    padding: 3px 4px;
+}
+button:hover{
+    background-color:#142411;
+    color: red;
+}
+button:active{
+    color: #142411;
+    background-color: red;
+    
+}
+img{
+    width: 300px;
+    
+}
+form{
+    width: 25%;
+    margin: auto;
+    min-width: 450px;
+}
+
